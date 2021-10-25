@@ -237,25 +237,7 @@
                     android:layout_height="wrap_content"
                     android:src="@drawable/dym_xuan"/>
             </LinearLayout>
-            <com.example.view.DegreeView
-                android:id="@+id/dv_flow"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="3dp"
-                app:textName="流量"
-                app:leImage="@drawable/dym_lai"
-                app:virtualImage="@drawable/dym_liuliang2"
-                app:factImage="@drawable/dym_liuliang"/>
 
-            <com.example.view.DegreeView
-                android:id="@+id/dv_pain"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="3dp"
-                app:textName="痛经"
-                app:leImage="@drawable/dym_tong"
-                app:virtualImage="@drawable/dym_tongjing2"
-                app:factImage="@drawable/dym_tongjing"/>
         </LinearLayout>
         </ScrollView>
     </LinearLayout>
